@@ -7,43 +7,68 @@
   html::-webkit-scrollbar {
     display: none;              /* Chrome, Edge, Safari */
   }
+  p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: large; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  }
+  #mountains{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+  }
+  #name {
+    position: absolute;
+    top: -50px;
+    right: 40%;
+    color: white;
+    font-size: 700%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  h2{
+    position: absolute;
+    top: 135px;
+    right: 40%;
+  }
+
 </style>
 <head> <!-- head is info   -->
     <title> A Better Website</title> <!-- Changes name of tab -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- scales to dif screen-->
 </head>
-<body style="background-color: rgb(190, 13, 84); height: 100%; margin: 0;">
+<body style="background-color: rgb(5, 97, 131); height: 100%; margin: 0;">
     
     <div style="height: 100vh; position: relative;"> 
-        <img src="colorful-mountains-night-minimal-8k-w5-1920x1080.jpg" style="color: rgb(190, 13, 84); height: 100%; width: 100%;   object-fit: cover; margin: auto;  display: block; ">
-        <h1 style="position: absolute; top: -50px; right: 40%;  color: white; font-size: 700%; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; "  > 
+        
+        <img src="colorful-mountains-night-minimal-8k-w5-1920x1080.jpg" id="mountains">
+       <hr style="border-width: 1px; margin-top: 0px;">
+        <h1 id="name"> 
             ELLIE</h1>
-        <h2 style="position: absolute; top: 135px; right: 30%;  color: white; font-size: 150%; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; "  > 
+        <h2 style="position: absolute; top: 135px; right: 40%;  color: rgb(255, 255, 255); font-size: 150%; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; "  > 
             
-            Chaos + Maker = Adventure 
+            Student Maker
         </h2>
+           
     </div>
+    <p>
+        Hi, i am ellie balh balhjhfkjdhflkj hdkjgshdk
+        fjlghkjhgkdjfghkjfldghklfjdhglkjdfhgkjhkjhkjhkljhl
+    </p>
    
-
-
-
-
-
-
-
 
 
     <a href="https://github.com/Picobola1/BetterWebsite" target="_blank"> <!-- Hyper link -->
                                                         <!-- target = _ black mean open a new tab
                                                                          witch the link -->
                                                                          <!-- Also works with files like page 2 -->
-        <img src="simple-vibing-cat-square-meme_742173-4493.png" height="200">    <!-- scince insade of a then now the link is the picture -->                                                               
+        <img src="simple-vibing-cat-square-meme_742173-4493.png" height="200" style="margin-top: 50%;" id="cat">    <!-- scince insade of a then now the link is the picture -->                                                               
     </a>
     <button  style="background-color: coral; border-radius: 5px;" > HI</button>
     <br>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus iste, alias nesciunt temporibus, vel explicabo pariatur minus dolore maxime tempora voluptatum, quibusdam libero nisi. Illo maiores deleniti modi ullam vero.
-    </p>
+    
     
 </body>
 </html>
