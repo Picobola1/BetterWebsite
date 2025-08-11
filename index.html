@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    
+<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+</head>
 <style>
   html {
     scrollbar-width: none;      /* Firefox */
@@ -7,11 +12,14 @@
   html::-webkit-scrollbar {
     display: none;              /* Chrome, Edge, Safari */
   }
-  p {
+  #MeText {
     color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: large; 
+    
+    font-size: 22px; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    max-width: 700px;
+    
+    margin: 50px auto;
   }
   #mountains{
     height: 100%;
@@ -32,42 +40,103 @@
     position: absolute;
     top: 135px;
     right: 40%;
+    color: white;
+    font-size: 150%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
+  #knowlage {
+    color: rgb(255, 255, 255);
+    
+    font-size: 22px; 
+    font: bold; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 700px;
+    
+    margin: 50px auto;
+    text-align: center;
+    
+  }
+  #icons {
+    font-size: 50px;
+    color: azure;
+    text-align: center;
+  }
+
+  .container{
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+  }  
+  #box1{
+    background-color: rgb(121, 4, 73);
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 15px;
+  }
+  body{
+    background: linear-gradient(#268abf, #620532);
+    height: 100%; margin: 0;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+  }
+  
+
 
 </style>
 <head> <!-- head is info   -->
     <title> A Better Website</title> <!-- Changes name of tab -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- scales to dif screen-->
 </head>
-<body style="background-color: rgb(5, 97, 131); height: 100%; margin: 0;">
+<body>
     
     <div style="height: 100vh; position: relative;"> 
         
-        <img src="colorful-mountains-night-minimal-8k-w5-1920x1080.jpg" id="mountains">
+        <img src="colorful-mountains-night-minimal-8k-w5-1920x1080.jpg" id="mountains" >
        <hr style="border-width: 1px; margin-top: 0px;">
         <h1 id="name"> 
             ELLIE</h1>
-        <h2 style="position: absolute; top: 135px; right: 40%;  color: rgb(255, 255, 255); font-size: 150%; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; "  > 
+        <h2> 
             
             Student Maker
         </h2>
-           
+        
     </div>
-    <p>
-        Hi, i am ellie balh balhjhfkjdhflkj hdkjgshdk
-        fjlghkjhgkdjfghkjfldghklfjdhglkjdfhgkjhkjhkjhkljhl
+    <p id="MeText">
+        Hi, Im Ellie - a kid who decided to become a maker of sorts. I am constantly switching from woodworking, game dev, arduino, and now website making. I  love spending late nights after my parents have told me to go to bed, working on projects. Buildings things, anythnig really, i love it, even ikea furniture. So weather its making a making a servo dance too building a website about mac and cheese. I am all in.
     </p>
+    
+    
+          
+    <div class="container">
+    <div id="box1">
+    <h3 id="knowlage">
+        <b> Stuff i have some knowlage in</b> 
+    </h3>
+    <div id="icons">
+    <i class="devicon-html5-plain-wordmark"></i>
+    <i class="devicon-css3-plain-wordmark"></i>
+    <i class="devicon-godot-plain-wordmark"></i>
+    <i class="devicon-arduino-plain-wordmark"></i>
+    <i class="devicon-python-plain-wordmark"></i>
+    <h3 id="learning">
+        Stuff i am learning
+    </h3>
+          
+    </div>    
+    
+
+    </div>
+    </div>
+    
+          
    
+    
 
+   
+      
 
-    <a href="https://github.com/Picobola1/BetterWebsite" target="_blank"> <!-- Hyper link -->
-                                                        <!-- target = _ black mean open a new tab
-                                                                         witch the link -->
-                                                                         <!-- Also works with files like page 2 -->
-        <img src="simple-vibing-cat-square-meme_742173-4493.png" height="200" style="margin-top: 50%;" id="cat">    <!-- scince insade of a then now the link is the picture -->                                                               
-    </a>
-    <button  style="background-color: coral; border-radius: 5px;" > HI</button>
-    <br>
+    
     
     
 </body>
